@@ -1,1 +1,13 @@
+Prelimiary Proposal
+Team 16: Jack Ngo(CE), Owen Klobucher(CE), Wil Dems(CE), Quinn Carolan(CE), Eric Tang(CE)
+
+Project Idea: 
+Our current idea is Lodestone. A low-cost and long-battery life wearable that logs your path with GNSS, 
+shares it with teammates over LoRa, and feeds a laptop app that shows the whole group’s trails and last known positions.
+No cell service, subscription, or phone required. 
+
+Problem Statement: 
+In remote hiking and camping areas, cell service is often unavailable, so groups that separate cannot see where each 
+other are, and nobody holds a record of where the group has been. If someone fails to return, the people who need to find them 
+have no last known position, trail, or way to see which areas have already been covered
 
