@@ -11,10 +11,12 @@ In remote hiking and camping areas, cell service is often unavailable, so groups
 other are, and nobody holds a record of where the group has been. If someone fails to return, the people who need to find them 
 have no last known position, trail, or way to see which areas have already been covered.
 
-Preexisting solutions and what your project will do differently when solving the problem: 
+Pre -existing solutions and what your project will do differently when solving the problem: 
 - Subscription dependency: Existing mainstream devices from companies like Garmin and Fitbit require a subscription plan to utilize their service to the fullest extent
 - Network dependency: most existing devices utilize cellular or Wi-Fi, which can be unreliable for hikers and campers in remote areas
-- Garmin and similar products: Most have these features but require subscriptions or are very expensive to purchase in the first place.
+- Garmin and similar products: Most have these features but require subscriptions or are very expensive to purchase in the first place.- Our device will be able to provide users with map building AND user node tracking. Unlike existing products on the market, we are mainly aiming to 
+make our device low-cost, subscription free, and have a long battery life. 
+
 
 Expected difficulties
 - Increasing battery life
@@ -27,4 +29,4 @@ Quinn Carolan: UX + PCB lead
 Wil Dems: Logistics lead
 Owen Klobucher: Hardware + PCB lead
 Jack Ngo: Software lead
-Eric Tang: Embedded lead 
+Eric Tang: Embedded lead 
