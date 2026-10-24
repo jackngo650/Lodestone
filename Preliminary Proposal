@@ -1,4 +1,7 @@
+Lodestone
 Preliminary Proposal
+
+
 Team 16: Jack Ngo(CE), Owen Klobucher(CE), Wil Dems(CE), Quinn Carolan(CE), Eric Tang(CE)
 
 Project Idea: 
@@ -7,15 +10,41 @@ shares it with teammates over LoRa, and feeds a laptop app that shows the whole 
 No cell service, subscription, or phone required. 
 
 Problem Statement: 
-In remote hiking and camping areas, cell service is often unavailable, so groups that separate cannot see where each 
-other are, and nobody holds a record of where the group has been. If someone fails to return, the people who need to find them 
-have no last known position, trail, or way to see which areas have already been covered.
+Cell service is often unavailable in remote hiking and camping areas, leaving separated group members unable to see each other’s locations and without a last known position if someone fails to return. 
 
-Pre -existing solutions and what your project will do differently when solving the problem: 
-- Subscription dependency: Existing mainstream devices from companies like Garmin and Fitbit require a subscription plan to utilize their service to the fullest extent
-- Network dependency: most existing devices utilize cellular or Wi-Fi, which can be unreliable for hikers and campers in remote areas
-- Garmin and similar products: Most have these features but require subscriptions or are very expensive to purchase in the first place.- Our device will be able to provide users with map building AND user node tracking. Unlike existing products on the market, we are mainly aiming to 
-make our device low-cost, subscription free, and have a long battery life. 
+Pre-existing solutions and what your project will do differently when solving the problem: 
+Totem Compass: 
+- Wearable that points to friends with colored lights
+- No phone, Wifi, phone, or cell service required
+- GNSS used for positioning, and 1 km direct range in open conditions
+- About 10-24 hours of battery life depending on the mode
+- No display, map, or messaging
+- Direction lights only
+- Short battery life. 
+- Less than 1 day of battery life
+- Limited use and range
+- Main use is for concerts
+LynQ
+- Digital compass that points towards friends
+- No cell or WiFi needed
+- Claimed roughly 3 miles of range
+- Small round monochrome screen
+- Carabiner Style body with a locking clip 
+- About 24 hours of active use
+- Display is minimal
+- Only shows direction and distance of one target
+-Unreliable in dense environments
+- User reports claim GPS signal issues, especially in densely wooded areas. 
+- Long link time
+- Users report up to 5 min wait times when initializing two Lynq’s
+
+
+Subscription dependency: Existing mainstream devices from companies like Garmin and Fitbit require a subscription plan to utilize 
+                          their service to the fullest extent. Our’s won’t require a subscription or license 
+Network dependency: most existing devices utilize cellular or Wi-Fi, which can be unreliable for hikers and campers in remote areas. 
+                      Ours will utilize LoRa and GNSS
+Cost: Most of these devices range from as low as $120 per unit, to upwards of $1600 + subscription costs. Ours will aim to be around 
+      $100 per unit, as a high limit. 
 
 
 Expected difficulties
@@ -24,9 +53,16 @@ Expected difficulties
 - Directional navigation
 - Configuring LoRa and mesh network 
 
+Budget: 
+Total: $500
+Estimate for prototyping: ~$250
+Estimate for Final Product: ~$200-$250
+
 Group member roles
 Quinn Carolan: UX + PCB lead
-Wil Dems: Logistics lead
+Wil Dems: GPS + LoRa Implementation lead
 Owen Klobucher: Hardware + PCB lead
-Jack Ngo: Software lead
-Eric Tang: Embedded lead 
+Jack Ngo: Embedded lead
+Eric Tang: Softwarelead
+
+
